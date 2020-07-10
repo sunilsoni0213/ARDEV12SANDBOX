@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>48.0</version>
     <types>
         <members>AppSwitcher</members>
@@ -238,6 +237,7 @@
         <members>Case.AccountId</members>
         <members>Case.AssetId</members>
         <members>Case.BusinessHoursId</members>
+        <members>Case.Checkbox__c</members>
         <members>Case.ClosedDate</members>
         <members>Case.Comments</members>
         <members>Case.ContactEmail</members>
@@ -617,6 +617,7 @@
         <members>Event.Type</members>
         <members>Event.WhatId</members>
         <members>Event.WhoId</members>
+        <members>Goal.OrigGoalId__c</members>
         <members>Idea.Categories</members>
         <members>Idea.Status</members>
         <members>Image.AlternateText</members>
@@ -756,6 +757,7 @@
         <members>MessagingSession.PreviewDetails</members>
         <members>MessagingSession.StartTime</members>
         <members>MessagingSession.Status</members>
+        <members>Metric.OrigMetricId__c</members>
         <members>OperatingHours.Description</members>
         <members>OperatingHours.Name</members>
         <members>OperatingHours.TimeZone</members>
@@ -1641,6 +1643,8 @@
     </types>
     <types>
         <members>Idea.InternalIdeasIdeaRecordType</members>
+        <members>Metric.Completion</members>
+        <members>Metric.Progress</members>
         <name>RecordType</name>
     </types>
     <types>
