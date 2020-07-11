@@ -20,6 +20,7 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Checkbox__c</field>
                 <field>Text__c</field>
             </layoutItems>
         </layoutColumns>
